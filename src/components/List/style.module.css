@@ -1,0 +1,49 @@
+.itemLayoutBox {
+  padding: 5px;
+}
+.contentBox {
+    padding: 5px;
+    background-color: #ff652f;
+    border-radius: 7px;
+   
+  }
+
+  .overlayBox {
+    background-color: #747474;
+    width:100%;
+    flex:1
+  }
+
+
+  @media (max-width: 400px) {
+    .overlayBox {
+      background-color: #747474;
+      height: 100%;
+      width:100%;
+      flex:4
+    }
+    
+  }
+  @media (min-width: 400px) {
+    .overlayBox {
+      background-color: #747474;
+      width:100%;
+      flex:4
+    }
+    
+  }
+  @media (min-width: 600px) {
+    .overlayBox {
+      background-color: #747474;
+      width:100%;
+      flex:3
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .overlayBox {
+      background-color: #747474;
+      width:100%;
+      flex:1
+    }
+  }

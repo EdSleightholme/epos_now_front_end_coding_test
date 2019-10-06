@@ -1,0 +1,15 @@
+.mainBlock {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+}
+
+.productBlock {
+ background-color: #272727;
+ flex:5;
+ width:80%;
+}

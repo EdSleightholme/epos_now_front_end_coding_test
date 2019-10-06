@@ -1,0 +1,48 @@
+.layoutBox {
+  padding: 5px;
+  
+}
+
+.contentBox {
+  background-color: #ffe400;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 7px;
+  width:95%;
+  cursor: pointer;
+  }
+
+@media (min-width: 400px) {
+    .gridLayout {
+      width:100%;
+      display: grid;
+      grid-template-columns :auto 
+    
+    }
+    
+  }
+@media (min-width: 600px) {
+    .gridLayout {
+      width:100%;
+      display: grid;
+      grid-template-columns :auto auto  
+    
+    }
+  }
+@media (min-width: 900px) {
+    .gridLayout {
+      width:100%;
+      display: grid;
+      grid-template-columns :auto auto auto 
+    
+    }
+  }
+@media (min-width: 1200px) {
+    .gridLayout {
+      width:100%;
+      display: grid;
+      grid-template-columns :auto auto auto auto
+    
+    }
+  }
